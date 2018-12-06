@@ -2,7 +2,7 @@
 echo  "ACTUALIZANDO UBUNTU" 
 sudo apt update && sudo apt upgrade -y
 clear
-echo -e "INSTALANDO DEPENDECIAS NESESARIAS ODOO Y FACTURACCION ELECTRONICA"
+echo -e "INSTALANDO DEPENDECIAS NESESARIAS ODOO Y FACTURACION ELECTRONICA"
 sleep 3s
 sudo apt-get install python3 python3-pip -y
 sudo apt-get install wget git bzr python-pip gdebi-core -y
